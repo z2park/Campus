@@ -7,11 +7,11 @@
   }
 }
 
-.btn {
+.btn8 {
   position: absolute;
   top: 35px;
   left: 0;
-  .back {
+  .back8 {
     width: 32px;
     height: 32px;
     img {
@@ -19,29 +19,29 @@
     }
   }
 }
-.content {
-  .dapp-name {
+.content8 {
+  .dapp-name8 {
     line-height: 30px;
     padding-left: 55px;
   }
-  .title-wrong {
+  .title-wrong8 {
     border-bottom: 1px solid $color-lightgray;
     padding-bottom: 14.5px;
   }
-  .title {
+  .title8 {
     padding-left: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .title-btn {
+  .title-btn8 {
     width: 90px;
     height: 32px;
     background-color: $color-lightgray;
     font-size: 14px;
     line-height: 24px;
   }
-  .title-in {
+  .title-in8 {
     width: 700px;
     height: 40px;
     font-size: 16px;
@@ -51,17 +51,17 @@
   }
 }
 
-.app {
+.app8 {
   box-sizing: border-box;
   padding-left: 55px;
 }
-.app-tit {
+.app-tit8 {
   font-weight: 500;
   padding-top: 33.5px;
   padding-left: 10px;
   line-height: 30px;
 }
-.app-in {
+.app-in8 {
   font-weight: 300;
   line-height: 30px;
   padding: 11.1px 0 29.9px 0;
@@ -69,18 +69,18 @@
   border: 1px solid $color-6-border;
 }
 
-.entire {
+.entire8 {
   width: calc(100%-55px);
   padding-top: 9px;
   padding-left: 55px;
 }
-.entire2 {
+.entire2-8 {
   width: calc(100%-55px);
   padding-top: 7px;
   padding-left: 55px;
 }
-.info {
-  .info-name {
+.info8 {
+  .info-name8 {
     padding: 20px 0;
     font-size: 13px;
   }
@@ -89,7 +89,7 @@
     height: 39px;
     padding: 0 10px;
   }
-  .info-in {
+  .info-in8 {
     display: flex;
     align-items: center;
     span {
@@ -101,7 +101,7 @@
       width: 100%;
     }
   }
-  .small-btn {
+  .small-btn8 {
     border: 1px solid $color-6-border;
     border-radius: 100px;
     width: 70px;
@@ -109,15 +109,15 @@
     margin-left: 10px;
   }
 }
-.history {
+.history8 {
   width: calc(100%-55px);
   padding-left: 55px;
 }
-.history-title {
+.history-title8 {
   line-height: 30px;
   padding: 70px 0 15px 10px;
 }
-.history-table {
+.history-table8 {
   width: 100%;
   border-collapse: collapse;
   tr,

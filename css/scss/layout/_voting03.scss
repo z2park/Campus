@@ -1,0 +1,141 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+  button {
+    outline: none;
+  }
+}
+
+.all-rel {
+  position: relative;
+}
+.btn-v3 {
+  padding-top: 15px;
+  float: left;
+  .back-v3 {
+    width: 32px;
+    height: 32px;
+    img {
+      width: 100%;
+    }
+  }
+}
+.content-v3 {
+  .title-v3 {
+    display: flex;
+    align-items: center;
+  }
+  .title-btn-v3 {
+    width: 84px;
+    height: 24px;
+    border-radius: 100px;
+    background-color: $color-lightgray;
+    font-size: 12px;
+    line-height: 24px;
+    color: $color-end;
+    margin: 0 20px 0 10px;
+  }
+  .title-in-v3 {
+    padding: 19.5px 0 21px 25px;
+    font-size: 16px;
+  }
+  .title-sub-v3 {
+    font-size: 12px;
+  }
+}
+
+.information-v3 {
+  border-top: 1px solid #f2f3f7;
+  padding: 19.5px 0 19.5px 25px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  span {
+    display: flex;
+    flex-grow: 1;
+    color: #3b5675;
+    font-size: 13px;
+    border-right: 1px solid $color-lightgray;
+    padding-left: 27px;
+    align-items: center;
+  }
+  .small-btn-v3 {
+    border-radius: 100px;
+    display: inline-block;
+    border: 1px solid #c6cbd4;
+    line-height: 24px;
+    padding: 0 14px;
+    margin-left: 5px;
+  }
+}
+.information2-v3 {
+  border-bottom: 1px solid #f2f3f7;
+  padding-left: 25px;
+  padding-bottom: 19.5px;
+  span {
+    color: #3b5675;
+    font-size: 13px;
+    padding-left: 27px;
+  }
+  label {
+    font-size: 13px;
+    padding: 0 19px 0 0;
+  }
+}
+.vote-v3 {
+  box-sizing: border-box;
+  padding: 0 30px 0 55px;
+}
+.vote-tit-v3 {
+  font-weight: 500;
+  padding-top: 45.5px;
+  padding-bottom: 22px;
+  line-height: 30px;
+}
+.vote-table-v3 {
+  tr {
+    border-bottom: 1px solid $color-vote-table;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 13px;
+  }
+  td {
+    display: flex;
+    flex-grow: 1;
+  }
+  td:nth-child(2) {
+    flex-grow: 4;
+  }
+  .small-btn2-v3 {
+    border-radius: 100px;
+    display: inline-block;
+    border: 1px solid $color-vote-table;
+    line-height: 24px;
+    font-size: 12px;
+    width: 90px;
+    height: 24px;
+  }
+}
+.library-v3 {
+  background-color: $color-lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.add-image-v3 {
+  padding: 40px 0 13px 55px;
+  line-height: 30px;
+  .fake-image-v3 {
+    width: 200px;
+    height: 117px;
+    background-color: $color-vote-table;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
