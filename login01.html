@@ -9,7 +9,21 @@
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript">
     $(function () {
-
+      $(".type-click").click(function (e) {
+        e.preventDefault();
+        $(".school").css("display", "block");
+      })
+      $(".school-name").click(function (e) {
+        e.preventDefault();
+        $(".school").css("display", "none");
+      })
+      $(".school-name").mouseover(function (e) {
+        e.preventDefault();
+        $(this).css("background-color", "#f2f4f7")
+      }).mouseout(function (e) {
+        e.preventDefault();
+        $(this).css("background-color", "#fff")
+      })
     })            
   </script>
 </head>
@@ -29,7 +43,19 @@
       <div class="login-form">
         <div class="login-in">
           <p class="up-text">학교 선택</p>
-          <div class="typing2">학교를 선택하세요.</div>
+          <div class="typing2">학교를 선택하세요.
+            <a href="#" class="type-click">
+              <img src="./images/login-btn-arr-normal.svg">
+            </a>
+          </div>
+          <div class="school">
+            <div class="school-select">
+              <p><a href="#" class="school-name">연세대</a></p>
+              <p><a href="#" class="school-name">서강대</a></p>
+              <p><a href="#" class="school-name">인천대</a></p>
+              <p><a href="#" class="school-name">포항공대</a></p>
+            </div>
+          </div>
           <p class="up-text">아이디</p>
           <input type="email" class="typing" placeholder="아이디 혹은 이메일을 입력하세요.">
           <p class="up-text">패스워드</p>

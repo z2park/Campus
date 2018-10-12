@@ -1,0 +1,32 @@
+.typing2-l2 {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 49.1px;
+  border-radius: 8px;
+  background-color: rgba(168, 182, 200, 0.15);
+  padding: 0 10px;
+  border: 0;
+  font-size: 16px;
+  color: $color-login-bottom;
+  .type-click2 {
+    display: inline-block;
+    margin-left: 240px;
+  }
+}
+.wrong-l2 {
+  color: $color-red-wrong;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: left;
+}
+.press-btn2 button {
+  width: 360px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #30b9d3;
+  color: white;
+  margin-top: 9px;
+  font-size: 16px;
+}
