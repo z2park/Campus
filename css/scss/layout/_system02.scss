@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 30px;
+    border-bottom: 1px solid #e3e7ec;
   }
 }
 .info-table-s2 {
@@ -34,6 +35,8 @@
   }
   table {
     border-collapse: collapse;
+    border-bottom: 1px solid rgba(198, 203, 212, 0.3);
+    color: #575757;
     th {
       background-color: $color-lightgray;
       height: 48px;
@@ -53,8 +56,11 @@
     }
   }
 }
+.tb-s2 {
+  margin-bottom: 19px;
+}
 .app-s2 {
-  padding: 0 30px 30px 30px;
+  padding: 0 30px 35px 30px;
   background-color: #fff;
   h3 {
     padding: 15px 0;
