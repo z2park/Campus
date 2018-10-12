@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+}
+.header {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 14px;
+  a:first-child {
+    border-right: 1px solid #d8d8d8;
+    padding-right: 17px;
+    margin-right: 17px;
+  }
+}
+.login-height {
+  height: 100%;
+  width: 100%;
+  background-color: $color-lightgray;
+  display: table;
+  .login-center {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .logo-center {
+    width: 100%;
+    text-align: center;
+  }
+}
+.logo {
+  display: inline-block;
+  width: 145px;
+  height: 210px;
+  img {
+    width: 100%;
+  }
+}
+.login-form {
+  text-align: center;
+  .login-in {
+    display: inline-block;
+    width: 360px;
+  }
+  select {
+    width: 360px;
+    height: 49.1px;
+    border-radius: 8px;
+    background-color: rgba(168, 182, 200, 0.15);
+  }
+  .up-text {
+    text-align: left;
+    padding: 20px 0 15px 0;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+  }
+  .typing {
+    width: 360px;
+    height: 49.1px;
+    border-radius: 8px;
+    background-color: rgba(168, 182, 200, 0.15);
+    padding: 0 10px;
+    border: 0;
+  }
+  .typing::placeholder {
+    color: $color-placeholder;
+  }
+  .typing2 {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 49.1px;
+    border-radius: 8px;
+    background-color: rgba(168, 182, 200, 0.15);
+    padding: 0 10px;
+    border: 0;
+    font-size: 14px;
+    color: $color-placeholder;
+  }
+  .press-btn button {
+    width: 360px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #30b9d3;
+    color: white;
+    margin-top: 29.9px;
+    font-size: 16px;
+  }
+  .bottom-text {
+    padding-top: 60px;
+    font-size: 14px;
+    color: $color-login-bottom;
+  }
+}

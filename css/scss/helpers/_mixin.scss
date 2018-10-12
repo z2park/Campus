@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+$path: "../images/";
+
+@mixin bgi($imageName) {
+  background-image: url(#{$path}#{$imageName});
+}
