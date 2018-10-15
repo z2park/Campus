@@ -96,6 +96,9 @@ body {
     color: white;
     margin-top: 29.9px;
     font-size: 16px;
+    &:hover {
+      background-color: #11adca;
+    }
   }
   .bottom-text {
     padding-top: 60px;
@@ -110,6 +113,7 @@ body {
   display: none;
 }
 .school-select {
+  margin-top: 10px;
   width: 360px;
   height: 120px;
   border-radius: 4px;

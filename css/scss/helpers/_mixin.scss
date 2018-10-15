@@ -5,3 +5,7 @@ $path: "../images/";
 @mixin bgi($imageName) {
   background-image: url(#{$path}#{$imageName});
 }
+
+@mixin small-btn-hover($small-btn) {
+  background-color: $color-vote-table;
+}

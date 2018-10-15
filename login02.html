@@ -9,6 +9,23 @@
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript">
     $(function () {
+      $(function () {
+        $(".type-click2").click(function (e) {
+          e.preventDefault();
+          $(".school").css("display", "block");
+        })
+        $(".school-name").click(function (e) {
+          e.preventDefault();
+          $(".school").css("display", "none");
+        })
+        $(".school-name").mouseover(function (e) {
+          e.preventDefault();
+          $(this).css("background-color", "#f2f4f7")
+        }).mouseout(function (e) {
+          e.preventDefault();
+          $(this).css("background-color", "#fff")
+        })
+      })
 
     })            
   </script>
@@ -34,12 +51,18 @@
               <img src="./images/login-btn-arr-normal.svg">
             </a>
           </div>
+          <div class="school">
+            <div class="school-select">
+              <p><a href="#" class="school-name">연세대</a></p>
+              <p><a href="#" class="school-name">서강대</a></p>
+              <p><a href="#" class="school-name">인천대</a></p>
+              <p><a href="#" class="school-name">포항공대</a></p>
+            </div>
+          </div>
           <p class="up-text">아이디</p>
-          <div class="typing2-l2">nana@postech.ac.kr
-          </div>
+          <input type="email" class="typing2-l2" value="nana@postech.ac.kr">
           <p class="up-text">패스워드</p>
-          <div class="typing2-l2">************
-          </div>
+          <input type="password" class="typing2-l2" value="123123123123">
           <p class="wrong-l2">잘못된 비밀번호 입니다.</p>
           <div class="press-btn2">
             <button>로그인</button>

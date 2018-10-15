@@ -2,7 +2,8 @@
 * {
   box-sizing: border-box;
   button,
-  input {
+  input,
+  textarea {
     outline: none;
   }
 }
@@ -20,6 +21,7 @@
   }
 }
 .content8 {
+  margin-bottom: 30px;
   .dapp-name8 {
     line-height: 30px;
     padding-left: 55px;
@@ -40,6 +42,9 @@
     background-color: $color-lightgray;
     font-size: 14px;
     line-height: 24px;
+    &:hover {
+      background-color: $color-btn-hover;
+    }
   }
   .title-in8 {
     width: 700px;
@@ -48,6 +53,7 @@
     border: 1px solid $color-6-border;
     display: flex;
     align-items: center;
+    padding: 0 10px;
   }
 }
 
@@ -64,9 +70,11 @@
 .app-in8 {
   font-weight: 300;
   line-height: 30px;
-  padding: 11.1px 0 29.9px 0;
+  padding: 11px 10px 11px 10px;
   height: 260px;
   border: 1px solid $color-6-border;
+  font-size: 16px;
+  width: 100%;
 }
 
 .entire8 {
@@ -102,11 +110,14 @@
     }
   }
   .small-btn8 {
-    border: 1px solid $color-6-border;
+    border: 1px solid $color-vote-table;
     border-radius: 100px;
     width: 70px;
     height: 24px;
     margin-left: 10px;
+    &:hover {
+      background-color: $color-lightgray;
+    }
   }
 }
 .history8 {

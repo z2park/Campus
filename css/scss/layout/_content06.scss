@@ -26,13 +26,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid red;
   }
   .title-btn6 {
     width: 90px;
     height: 32px;
     background-color: $color-lightgray;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 27px;
+    &:hover {
+      background-color: $color-btn-hover;
+    }
   }
   .title-in6 {
     margin: 24.5px 0 24.5px 0px;
@@ -42,6 +46,7 @@
     border: 1px solid $color-6-border;
     display: flex;
     align-items: center;
+    padding: 0 10px;
   }
 }
 
@@ -83,14 +88,20 @@
 .app-in6 {
   font-weight: 300;
   line-height: 30px;
-  padding: 11.1px 0 29.9px 0;
+  padding: 6px 10px;
   border: 1px solid $color-6-border;
+  width: 100%;
+  height: 260px;
+  font-size: 16px;
 }
 
 .entire6 {
   width: calc(100%-55px);
   padding-top: 9px;
   padding-left: 55px;
+  input {
+    font-size: 13px;
+  }
 }
 .entire2-6 {
   width: calc(100%-55px);
@@ -115,6 +126,7 @@
       display: inline-block;
       width: 24px;
       height: 24px;
+      line-height: 20px;
     }
     img {
       width: 100%;
@@ -126,5 +138,51 @@
     width: 70px;
     height: 24px;
     margin-left: 20px;
+    &:hover {
+      background-color: $color-lightgray;
+    }
+  }
+}
+.wrong7 {
+  color: $color-greenblue;
+  font-size: 12px;
+  padding: 7.5px 0 7.5px 55px;
+  border-bottom: 1px solid $color-lightgray;
+}
+.wrong7-2 {
+  color: $color-greenblue;
+  font-size: 12px;
+  padding-top: 11px;
+}
+
+.content7 {
+  .title7 {
+    padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bbtt {
+    margin-top: 24.5px;
+  }
+  .title-btn7 {
+    width: 90px;
+    height: 32px;
+    background-color: $color-lightgray;
+    font-size: 14px;
+    line-height: 27px;
+    &:hover {
+      background-color: $color-btn-hover;
+    }
+  }
+  .title-in7 {
+    margin: 24.5px 0 24.5px 0px;
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid $color-6-border;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
   }
 }
