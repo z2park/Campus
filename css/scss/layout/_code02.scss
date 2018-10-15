@@ -1,0 +1,127 @@
+.basic-c2 {
+  padding-top: 64px;
+  font-size: 13px;
+  font-weight: 500;
+  h2 {
+    line-height: 30px;
+    border-bottom: 1px solid $color-lightgray;
+    padding-bottom: 13px;
+    margin-bottom: 21px;
+    font-size: 16px;
+  }
+  p {
+    padding-bottom: 12px;
+  }
+  .basic-in-c2 {
+    padding-right: 10px;
+    border-right: 1px solid $color-lightgray;
+    margin-right: 10px;
+  }
+}
+.explain-c2 {
+  padding-top: 25px;
+  line-height: 30px;
+  h2 {
+    line-height: 30px;
+    padding-bottom: 11px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+.extra-c2 {
+  padding-top: 34.9px;
+  line-height: 30px;
+  h2 {
+    line-height: 30px;
+    padding-bottom: 11px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+.search-c3 {
+  font-size: 13px;
+  font-weight: 500;
+  .search-in-c3 {
+    padding-left: 19px;
+    border-left: 1px solid $color-lightgray;
+    margin-left: 19px;
+  }
+  .search-text-c3 {
+    padding-right: 19px;
+  }
+}
+.radio-c3 {
+  @extend %radio;
+  padding-top: 43.9px;
+}
+.line-c2 {
+  padding: 13px 0;
+}
+.bottom-table-c2 {
+  padding-top: 68px;
+  font-size: 13px;
+  h2 {
+    padding-bottom: 13px;
+    border-bottom: 1px solid $color-lightgray;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #575757;
+  }
+  tr {
+    height: 48px;
+    border-bottom: 1px solid rgba(198, 203, 212, 0.3);
+  }
+  th,
+  td {
+    vertical-align: middle;
+  }
+  th {
+    background-color: $color-lightgray;
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 31px;
+    width: 5.4%;
+  }
+  th:nth-child(2),
+  td:nth-child(2) {
+    padding-left: 9px;
+    width: 11.8%;
+  }
+  th:nth-child(3),
+  td:nth-child(3) {
+    padding-left: 9px;
+    width: 17.6%;
+  }
+  td:nth-child(3) {
+    text-decoration: underline;
+  }
+  th:nth-child(4),
+  td:nth-child(4) {
+    padding-left: 9px;
+    width: 25.9%;
+  }
+  th:nth-child(5),
+  td:nth-child(5) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+  th:nth-child(6),
+  td:nth-child(6) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+  th:nth-child(7),
+  td:nth-child(7) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+}

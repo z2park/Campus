@@ -1,0 +1,133 @@
+.content-j2 {
+  padding-left: 55px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+.btn-back-j2 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.title-j2 {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.title-in-j2 {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.title-btn-j2 {
+  background-color: $color-lightgray;
+  width: 90px;
+  height: 32px;
+  font-size: 14px;
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+}
+.basic-j2 {
+  padding-top: 64px;
+  font-size: 13px;
+  h2 {
+    line-height: 30px;
+    border-bottom: 1px solid $color-lightgray;
+    padding-bottom: 13px;
+    font-size: 16px;
+  }
+  .basic-in-j2 {
+    padding: 21px 0 20px 0;
+    span:first-child {
+      padding-right: 21px;
+    }
+  }
+}
+.detail-j2 {
+  padding-top: 80px;
+  font-size: 13px;
+  h2 {
+    line-height: 30px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid $color-lightgray;
+    font-size: 16px;
+  }
+  .detail-in1-j2 {
+    padding: 21px 0 20px 0;
+  }
+  .detail-in2-j2 {
+    padding-bottom: 15px;
+  }
+}
+.sch-j2 {
+  @extend %radio;
+  span {
+    padding-right: 20px;
+  }
+  label {
+    margin-right: 17px;
+  }
+}
+.cycle-j2 {
+  padding-top: 18px;
+  color: #c6cbd4;
+  @extend %radio2;
+  span {
+    padding-right: 18px;
+  }
+  .cycle-text {
+    width: 200px;
+    height: 32px;
+  }
+  label {
+    margin-right: 20px;
+  }
+}
+.log-j2 {
+  @extend %radio;
+  span {
+    display: inline-block;
+    padding-right: 18px;
+  }
+  label {
+    margin-right: 17px;
+  }
+}
+.condition-j2 {
+  @extend %radio;
+  padding: 13px 0 15px 0;
+  span {
+    display: inline-block;
+    padding-right: 20px;
+  }
+  label {
+    margin-right: 17px;
+  }
+}
+.detail-in3-j2 {
+  padding-bottom: 13px;
+  span:first-child {
+    padding-right: 10px;
+    border-right: 1px solid $color-lightgray;
+    margin-right: 9px;
+  }
+}
+.detail-in4-j2 {
+  padding-bottom: 10px;
+}
+.detail-in5-j2 {
+  padding-bottom: 11px;
+  button {
+    width: 74px;
+    height: 24px;
+    color: #4d4d4d;
+    border-radius: 100px;
+    border: 1px solid #c6cbd4;
+    margin-left: 5px;
+    &:hover {
+      background-color: $color-lightgray;
+    }
+  }
+}

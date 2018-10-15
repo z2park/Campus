@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500" rel="stylesheet">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    $(function () {
+
+    })            
+  </script>
+</head>
+
+<body>
+  <section class="all-rel">
+    <ul class="content-j2">
+      <li>
+        <div class="btn-back-j2">
+          <a href="#" class="back-j2"><img src="./images/btn-back-normal.svg"></a>
+        </div>
+        <section class="title-j2">
+          <h2 class="title-in-j2">학생정보 연동</h2>
+          <button class="title-btn-j2">수정</button>
+        </section>
+      </li>
+      <li>
+        <section class="basic-j2">
+          <h2>기본 정보</h2>
+          <div class="basic-in-j2">
+            <span>분류: 연동작업</span>
+            <span>스케줄명: 학생정보 연동</span>
+          </div>
+          <div class="sch-j2">
+            <span>스케쥴 유형</span>
+            <input type="radio" id="sch1" name="sch-radio">
+            <label for="sch1">시간</label>
+            <input type="radio" id="sch2" name="sch-radio">
+            <label for="sch2">일간</label>
+            <input type="radio" id="sch3" name="sch-radio">
+            <label for="sch3">주간</label>
+            <input type="radio" id="sch4" name="sch-radio">
+            <label for="sch4">월간</label>
+            <input type="radio" id="sch5" name="sch-radio">
+            <label for="sch5">사용자</label>
+          </div>
+          <div class="cycle-j2">
+            <span>실행 주기</span>
+            <input type="radio" id="cy1" name="cy-radio">
+            <label for="cy1">사용 중</label>
+            <input type="radio" id="cy2" name="cy-radio">
+            <label for="cy2">크론</label>
+            <input type="text" class="cycle-text">
+          </div>
+        </section>
+      </li>
+      <li>
+        <section class="detail-j2">
+          <h2>세부 정보</h2>
+          <p class="detail-in1-j2">스크립트 파일: /home/app/batch/run.sh </p>
+          <p class="detail-in2-j2">스크립트 파라미터: student</p>
+          <div class="log-j2">
+            <span>상세 로그 기록</span>
+            <input type="radio" id="log1" name="log-radio">
+            <label for="log1">사용</label>
+            <input type="radio" id="log2" name="log-radio">
+            <label for="log2">미사용</label>
+          </div>
+          <div class="condition-j2">
+            <span>상태</span>
+            <input type="radio" id="con1" name="con-radio">
+            <label for="con1">운영</label>
+            <input type="radio" id="con2" name="con-radio">
+            <label for="con2">미운영</label>
+          </div>
+          <p class="detail-in3-j2">
+            <span>최초 실행일: 2018-02-24</span>
+            <span>최근 수정일시: 2018-02-24</span>
+          </p>
+          <p class="detail-in4-j2">최근 수정인: 이아란 / 운영팀 </p>
+          <p class="detail-in5-j2">
+            <span>작업 상태: normal</span>
+            <button>
+              지금 실행
+            </button>
+          </p>
+          <p>최근 실행일시: 2018-03-29 00:00</p>
+        </section>
+      </li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
