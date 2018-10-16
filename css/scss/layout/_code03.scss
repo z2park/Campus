@@ -1,4 +1,4 @@
-.basic-c2 {
+.basic-c3 {
   padding-top: 64px;
   font-size: 13px;
   font-weight: 500;
@@ -10,36 +10,103 @@
     font-size: 16px;
   }
   p {
+    padding-bottom: 1px;
+  }
+  .basic-up-c3 {
     padding-bottom: 12px;
   }
-  .basic-in-c2 {
+  .basic-up2-c3 {
+    padding-bottom: 5px;
+  }
+  .basic-in-c3 {
     padding-right: 10px;
     border-right: 1px solid $color-lightgray;
     margin-right: 10px;
+    font-weight: 500;
+    input {
+      widows: 200px;
+      height: 32px;
+      padding: 0 10px;
+      margin-left: 19px;
+      border: 1px solid $color-vote-table;
+    }
+  }
+  .basic-code1-c3 {
+    input {
+      width: 400px;
+      height: 32px;
+      padding: 0 10px;
+      border: 1px solid $color-vote-table;
+      margin-left: 8px;
+    }
+  }
+  .basic-code2-c3 {
+    display: inline-block;
+    width: 78px;
+    height: 32px;
+    border: 1px solid $color-vote-table;
+    margin-left: 11px;
+    vertical-align: middle;
+    line-height: 32px;
+    padding: 0 12px;
+    position: relative;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background-image: url("../images/btn-dropdown-arrow-normal.svg");
+      position: absolute;
+      top: 2px;
+      right: 0;
+    }
+  }
+  .basic-code3-c3 {
+    input {
+      width: 200px;
+      height: 32px;
+      border: 1px solid $color-vote-table;
+      padding: 0 10px;
+      margin-left: 9px;
+    }
+  }
+  .basic-order-c3 {
+    display: flex;
+    align-items: center;
   }
 }
-.explain-c2 {
+.explain-c3 {
   padding-top: 25px;
   line-height: 30px;
   h2 {
     line-height: 30px;
     padding-bottom: 11px;
   }
-  p {
+  textarea {
     font-size: 16px;
     font-weight: 300;
+    width: 100%;
+    height: 140px;
+    border-radius: 2px;
+    border: solid 1px #c6cbd4;
+    line-height: 30px;
   }
 }
-.extra-c2 {
+.extra-c3 {
   padding-top: 34.9px;
   line-height: 30px;
   h2 {
     line-height: 30px;
     padding-bottom: 11px;
   }
-  p {
+  textarea {
     font-size: 16px;
     font-weight: 300;
+    width: 100%;
+    height: 140px;
+    border-radius: 2px;
+    border: solid 1px #c6cbd4;
+    line-height: 30px;
   }
 }
 .search-c2 {
