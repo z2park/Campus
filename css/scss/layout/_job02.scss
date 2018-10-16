@@ -75,7 +75,7 @@
   padding-top: 18px;
   color: #c6cbd4;
   @extend %radio2;
-  span {
+  .cycle-in-j2 {
     padding-right: 18px;
   }
   .cycle-text {
@@ -84,6 +84,11 @@
   }
   label {
     margin-right: 20px;
+  }
+  .cycle-in2-j2 {
+    label {
+      margin-right: 8px;
+    }
   }
 }
 .log-j2 {

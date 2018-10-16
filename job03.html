@@ -9,94 +9,105 @@
   <script type="text/javascript" src="jquery.js"></script>
   <script type="text/javascript">
     $(function () {
-
+      $(".select-j3").click(function () {
+        $(".select-box-j3").css("display", "block")
+      })
+      $(".select-li-j3").click(function (e) {
+        e.stopPropagation();
+        e.preventDefault();
+        console.log($(".select-li-j3"))
+        $(".select-box-j3").css("display", "none")
+      })
     })            
   </script>
 </head>
-
-<body>
-  <section class="all-rel">
-    <ul class="content-j3">
-      <li>
-        <div class="btn-back-j3">
-          <a href="#"><img src="./images/btn-back-normal.svg"></a>
+<section class="all-rel">
+  <ul class="content-j3">
+    <li>
+      <div class="btn-back-j3">
+        <a href="#"><img src="./images/btn-back-normal.svg"></a>
+      </div>
+      <section class="title-j3">
+        <h2 class="title-in-j3">학생정보 연동</h2>
+        <div>
+          <button class="title-btn-j3">스케줄 삭제</button>
+          <button class="title-btn-j3">저장</button>
         </div>
-        <section class="title-j3">
-          <h2 class="title-in-j3">학생정보 연동</h2>
-          <div>
-            <button class="title-btn-j3">스케줄 삭제</button>
-            <button class="title-btn-j3">저장</button>
-          </div>
-        </section>
-      </li>
-      <li>
-        <section class="basic-j3">
-          <h2>기본 정보</h2>
-          <div class="basic-in-j3">
-            분류
-            <span class="select-j3">
-              <div class="select-out-j3">
-                <div class="select-in-j3">연동작업</div>
-              </div>
-            </span>
-            <span>스케줄명
-              <input type="text" value="학생정보 연동">
-            </span>
-          </div>
-          <div class="sch-j3">
-            <span>스케쥴 유형</span>
-            <input type="radio" id="sch1" name="sch-radio" checked="checked">
-            <label for="sch1">시간</label>
-            <input type="radio" id="sch2" name="sch-radio">
-            <label for="sch2">일간</label>
-            <input type="radio" id="sch3" name="sch-radio">
-            <label for="sch3">주간</label>
-            <input type="radio" id="sch4" name="sch-radio">
-            <label for="sch4">월간</label>
-            <input type="radio" id="sch5" name="sch-radio">
-            <label for="sch5">사용자</label>
-          </div>
-          <div class="cycle-j3">
-            <span>실행 주기</span>
-            <input type="radio" id="cy1" name="cy-radio" checked="checked">
-            <label for="cy1">실행중</label>
-            <input type="radio" id="cy2" name="cy-radio">
+      </section>
+    </li>
+    <li>
+      <section class="basic-j3">
+        <h2>기본 정보</h2>
+        <div class="basic-in-j3">
+          분류
+          <span class="select-j3">
+            연동작업
+            <ul class="select-box-j3">
+              <li class="select-li-j3"><a href="#">연동작업</a></li>
+              <li class="select-li-j3"><a href="#">이메일</a></li>
+              <li class="select-li-j3"><a href="#">RDB백업</a></li>
+            </ul>
+          </span>
+          <span>스케줄명
+            <input type="text" value="학생정보 연동">
+          </span>
+        </div>
+        <div class="sch-j3">
+          <span>스케쥴 유형</span>
+          <input type="radio" id="sch1" name="sch-radio" checked="checked">
+          <label for="sch1">시간</label>
+          <input type="radio" id="sch2" name="sch-radio">
+          <label for="sch2">일간</label>
+          <input type="radio" id="sch3" name="sch-radio">
+          <label for="sch3">주간</label>
+          <input type="radio" id="sch4" name="sch-radio">
+          <label for="sch4">월간</label>
+          <input type="radio" id="sch5" name="sch-radio">
+          <label for="sch5">사용자</label>
+        </div>
+        <div class="cycle-j3">
+          <span class="cycle-in-j3">실행 주기</span>
+          <input type="radio" id="cy1" name="cy-radio" checked="checked">
+          <label for="cy1">실행중</label>
+          <span class="cycle-in2-j3">
+            <input type="radio" id="cy2">
             <label for="cy2" class="crone">크론</label>
-            <input type="text" class="cycle-text">
-          </div>
-        </section>
-      </li>
-      <li>
-        <section class="detail-j3">
-          <h2>세부 정보</h2>
-          <p class="detail-in1-j3">스크립트 파일<input type="email" value="/home/app/batch/run.sh"> </p>
-          <p class="detail-in2-j3">스크립트 라이브러리 <input type="email" value="/home/app/batch/run.sh"></p>
-          <div class="log-j2">
-            <span>상세 로그 기록</span>
-            <input type="radio" id="log1" name="log-radio" checked="checked">
-            <label for="log1">사용</label>
-            <input type="radio" id="log2" name="log-radio">
-            <label for="log2">미사용</label>
-          </div>
-          <div class="condition-j3">
-            <span>상태</span>
-            <input type="radio" id="con1" name="con-radio" checked="checked">
-            <label for="con1">운영</label>
-            <input type="radio" id="con2" name="con-radio">
-            <label for="con2">미운영</label>
-          </div>
-          <p class="detail-in3-j3">
-            <span>최초 실행일:<input type="datetime"></span>
-            <span>최근 수정일시:<input type="datetime"></span>
-          </p>
-          <p class="detail-in4-j3">
-            최근 수정인
-            <input type="text" value="이아란 / 운영팀">
-          </p>
-        </section>
-      </li>
-    </ul>
-  </section>
+          </span>
+          <input type="text" class="cycle-text">
+        </div>
+      </section>
+    </li>
+    <li>
+      <section class="detail-j3">
+        <h2>세부 정보</h2>
+        <p class="detail-in1-j3">스크립트 파일<input type="email" value="/home/app/batch/run.sh"> </p>
+        <p class="detail-in2-j3">스크립트 라이브러리 <input type="email" value="/home/app/batch/run.sh"></p>
+        <div class="log-j2">
+          <span>상세 로그 기록</span>
+          <input type="radio" id="log1" name="log-radio" checked="checked">
+          <label for="log1">사용</label>
+          <input type="radio" id="log2" name="log-radio">
+          <label for="log2">미사용</label>
+        </div>
+        <div class="condition-j3">
+          <span>상태</span>
+          <input type="radio" id="con1" name="con-radio" checked="checked">
+          <label for="con1">운영</label>
+          <input type="radio" id="con2" name="con-radio">
+          <label for="con2">미운영</label>
+        </div>
+        <p class="detail-in3-j3">
+          <span>최초 실행일:<input type="datetime"></span>
+          <span>최근 수정일시:<input type="datetime"></span>
+        </p>
+        <p class="detail-in4-j3">
+          최근 수정인
+          <input type="text" value="이아란 / 운영팀">
+        </p>
+      </section>
+    </li>
+  </ul>
+</section>
 
 </body>
 

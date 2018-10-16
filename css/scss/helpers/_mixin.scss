@@ -47,9 +47,4 @@ $path: "../images/";
     margin: -5px 7px 0 0;
     background: url("../images/btn-radio-selected3.svg");
   }
-  input[type="radio"]:checked + label::before {
-    /* 가짜 라디오버튼 체크했을 때 */
-    background: url("../images/btn-radio-selected.svg");
-    background-position: 20px 0;
-  }
 }
