@@ -5,15 +5,15 @@
     update: 10-02
 */
 
+//기본 스타일
+@import "base/common";
+@import "base/color";
+@import "base/reset";
+@import "base/grid";
+
 //공통 사용
 @import "helpers/mixin";
 @import "helpers/variables";
-
-//기본 스타일
-@import "base/common";
-@import "base/font";
-@import "base/reset";
-@import "base/grid";
 
 //레이아웃
 @import "layout/footer";
@@ -31,3 +31,7 @@
 @import "layout/job03";
 @import "layout/code02";
 @import "layout/code03";
+@import "layout/account02";
+@import "layout/account03";
+@import "layout/account04";
+@import "layout/account05";

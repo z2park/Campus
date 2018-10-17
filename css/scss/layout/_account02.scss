@@ -1,0 +1,255 @@
+.content-a2 {
+  padding-left: 55px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+.btn-back-a2 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+.title-a2 {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.title-in-a2 {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.title-btn-a2 {
+  background-color: $color-lightgray;
+  width: 90px;
+  height: 32px;
+  font-size: 14px;
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+}
+//기본정보
+.basic-a2 {
+  padding-top: 64px;
+  font-size: 13px;
+  font-weight: 500;
+  h2 {
+    @extend %underline;
+  }
+  .basic-in-a2 {
+    padding: 21px 0 20px 0;
+    span:first-child {
+      padding-right: 21px;
+    }
+    input {
+      width: 300px;
+      height: 32px;
+      padding: 0 12px;
+      font-size: 14px;
+      color: #333;
+      margin-left: 11px;
+    }
+  }
+}
+.basic-in2-a2 {
+  @extend %check;
+  .basic-under1 {
+    @extend %radio4;
+    display: inline-block;
+    text-align: center;
+  }
+  .basic-under2 {
+    padding: 0 16px 0 29px;
+  }
+  .basic-under3 {
+    padding-right: 16px;
+  }
+  .basic-under4 {
+    padding-right: 16px;
+  }
+}
+//부가정보
+.id-a2 {
+  padding-top: 80px;
+  font-size: 13px;
+  font-weight: 500;
+  h2 {
+    @extend %underline;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 300px;
+    height: 32px;
+    padding: 0 12px;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  .id-radio-a2 {
+    @extend %radio3;
+    span {
+      display: inline-block;
+      padding-right: 18px;
+    }
+    label {
+      margin-right: 17px;
+    }
+  }
+  .id-detail-a2 {
+    padding-top: 19px;
+    .id-d1 {
+      display: inline-block;
+
+      padding-right: 29px;
+      span {
+        display: inline-block;
+        width: 250px;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid #c6cbd4;
+        position: relative;
+        padding: 0 12px;
+        font-size: 14px;
+        border-radius: 2px;
+        @extend %select;
+      }
+    }
+    .id-d2 {
+      display: inline-block;
+
+      padding-right: 29px;
+      input {
+        width: 250px;
+        height: 32px;
+        padding: 0 12px;
+        font-size: 14px;
+        border-radius: 2px;
+        border: 1px solid #c6cbd4;
+      }
+    }
+    .id-d3 {
+      display: inline-block;
+
+      padding-right: 29px;
+      span {
+        display: inline-block;
+        width: 78px;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid #c6cbd4;
+        position: relative;
+        padding: 0 12px;
+        font-size: 14px;
+        border-radius: 2px;
+        @extend %select;
+      }
+    }
+    .id-d4 {
+      input {
+        width: 40px;
+        height: 32px;
+        padding: 0 12px;
+        font-size: 14px;
+        border-radius: 2px;
+        border: 1px solid #c6cbd4;
+      }
+    }
+  }
+  .wrong-a2 {
+    color: #ee6262;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 0 0 350px;
+  }
+}
+//블록체인 정보
+.chain-a2 {
+  padding-top: 52px;
+  font-size: 13px;
+  font-weight: 500;
+  h2 {
+    @extend %underline;
+    margin-bottom: 18px;
+  }
+  .tracker-btn {
+    border-radius: 100px;
+    width: 74px;
+    height: 24px;
+    border: 1px solid #c6cbd4;
+    margin-left: 6px;
+    &:hover {
+      background-color: $color-lightgray;
+    }
+  }
+  .chain-in2 {
+    padding: 13px 0 19px 0;
+    span {
+      color: #30b9d3;
+    }
+  }
+}
+//하위코드
+.code-a2 {
+  padding-top: 72px;
+  font-size: 13px;
+  font-weight: 500;
+  h2 {
+    @extend %underline;
+    margin-bottom: 20px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #575757;
+  }
+  tr {
+    height: 48px;
+    border-bottom: 1px solid rgba(198, 203, 212, 0.3);
+  }
+  th,
+  td {
+    vertical-align: middle;
+  }
+  th {
+    background-color: $color-lightgray;
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 31px;
+    width: 5.4%;
+  }
+  th:nth-child(2),
+  td:nth-child(2) {
+    padding-left: 9px;
+    width: 11.8%;
+  }
+  th:nth-child(3),
+  td:nth-child(3) {
+    padding-left: 9px;
+    width: 17.6%;
+  }
+  td:nth-child(3) {
+    text-decoration: underline;
+  }
+  th:nth-child(4),
+  td:nth-child(4) {
+    padding-left: 9px;
+    width: 25.9%;
+  }
+  th:nth-child(5),
+  td:nth-child(5) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+  th:nth-child(6),
+  td:nth-child(6) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+  th:nth-child(7),
+  td:nth-child(7) {
+    padding-left: 9px;
+    width: 9.5%;
+  }
+}

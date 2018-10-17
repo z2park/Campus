@@ -1,0 +1,173 @@
+.black-a5 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rem-a5 {
+  width: 80%;
+  height: 84%;
+}
+//제목 쪽
+.title-a5 {
+  background-color: $color-lightgray;
+  border-bottom: 1px solid #e3e7ec;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  border-radius: 2px 2px 0 0;
+  h2 {
+    margin-top: 5px;
+    font-weight: 500;
+  }
+  .x-a5 {
+    margin-right: 40px;
+    width: 2.4%;
+    height: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}
+//콘텐츠 > 테이블&텍스트
+.contents-a5 {
+  background-color: #fff;
+  border-radius: 0 0 2px 2px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  .contents-center-a5 {
+    width: 100%;
+    height: 85%;
+    border: 2px solid palevioletred;
+  }
+}
+//테이블 쪽
+.list-a5 {
+  float: left;
+  border: 2px solid blue;
+  height: 100%;
+  width: 70%;
+  padding-left: 30px;
+  padding-right: 15px;
+  table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    height: 70%;
+    width: 100%;
+    text-align: left;
+  }
+  tbody {
+    height: 70%;
+  }
+  tr {
+    height: 6.4%;
+    border-bottom: 1px solid $color-vote-table;
+  }
+  th {
+    color: #575757;
+    background-color: $color-lightgray;
+    vertical-align: middle;
+  }
+  td {
+    vertical-align: middle;
+  }
+  td:nth-child(3) {
+    text-decoration: underline;
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 30px;
+  }
+}
+//대기-진행중-완료
+.king-a5 {
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 12px;
+  width: 70%;
+  padding-left: 30px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  .top-up1 {
+    color: #30b9d3;
+    border-right: 1px solid $color-vote-table;
+    padding-right: 12px;
+  }
+  .top-up2 {
+    color: #9daab9;
+    border-right: 1px solid $color-vote-table;
+    padding: 0 12px;
+  }
+  .top-up3 {
+    color: #9daab9;
+    padding-left: 12px;
+  }
+  .top-up4 {
+    color: #30b9d3;
+  }
+}
+//텍스트 송금작업명 쪽
+.text-a5 {
+  width: 30%;
+  height: 100%;
+  float: right;
+  border: 2px solid seagreen;
+  padding: 0 15px;
+}
+.text-box-a5 {
+  background-color: $color-lightgray;
+  height: 100%;
+  border: 1px solid red;
+  font-size: 13px;
+  padding-top: 8.8%;
+  padding-bottom: 5.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-boxin-a5 {
+    border: 2px solid slateblue;
+    height: 100%;
+    position: relative;
+  }
+  input {
+    width: 80%;
+    height: 6.9%;
+    padding: 0 8px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    padding-bottom: 3.4%;
+  }
+  .box2,
+  .box3,
+  .box4 {
+    padding-top: 3.6%;
+  }
+  .other-a5 {
+    padding-top: 1.7%;
+    color: #30b9d3;
+  }
+  .go-btn-a5 {
+    border: 2px solid gold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    .gogo-a5 {
+      width: 19.5%;
+      height: 5.5%;
+      background-color: #d8e0e7;
+      color: #9daab9;
+    }
+  }
+}
